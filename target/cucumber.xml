@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.191408">
+    <testcase classname="As a user I want try multiple User names and passwords to loigin" name="I want login using multiple user names and pass words" time="0.188916">
+        <system-out>
+            <![CDATA[Given I am on login  page...................................................passed
+When I login with Jismal and Joseph.........................................passed
+And I click on Login  button................................................passed
+Then I should be able to log in successfully................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user I want try multiple User names and passwords to loigin" name="I want login using multiple user names and pass words 2" time="0.000244">
+        <system-out>
+            <![CDATA[Given I am on login  page...................................................passed
+When I login with Jismal1 and Joseph1.......................................passed
+And I click on Login  button................................................passed
+Then I should be able to log in successfully................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user I want try multiple User names and passwords to loigin" name="I want login using multiple user names and pass words 3" time="0.000222">
+        <system-out>
+            <![CDATA[Given I am on login  page...................................................passed
+When I login with Jismal2 and Joseph2.......................................passed
+And I click on Login  button................................................passed
+Then I should be able to log in successfully................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user I want to check the log in functionality for WDX" name="As a userI want to Sign in to WDX" time="0.002026">
+        <system-out>
+            <![CDATA[Given validate the Browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check the browser is started...........................................passed
+Given I am on sign in page..................................................passed
+When I click in the Sign In Button..........................................passed
+And I fill in all the details...............................................passed
+And I Click on the submit button............................................passed
+Then I should be able to complete the sign up...............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
